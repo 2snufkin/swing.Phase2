@@ -1,0 +1,81 @@
+JFDML JFormDesigner: "7.0.3.0.337" Java: "11.0.9" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) {
+			"autoSize": false
+		} ) {
+			name: "this"
+			"resizable": false
+			"title": "Log In"
+			"defaultCloseOperation": 3
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "dUserName"
+				"text": "User Name"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 70
+				"y": 35
+				"width": 90
+				"height": 20
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "userNameField"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 170
+				"y": 30
+				"width": 150
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "dPassword"
+				"text": "Password"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 60
+				"height": 20
+				"x": 75
+				"y": 75
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "passwordField"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 145
+				"height": 30
+				"x": 170
+				"y": 70
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "loginButton"
+				"text": "Log In"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 235
+				"y": 110
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "dManage"
+				"text": "Manage"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 85
+				"y": 200
+				"width": 60
+				"height": 21
+			} )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "adminCombo"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 170
+				"y": 195
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "roleLabel"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 165
+				"y": 110
+				"width": 60
+				"height": 30
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 400, 300 )
+		} )
+	}
+}
